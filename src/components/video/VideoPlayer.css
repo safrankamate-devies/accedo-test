@@ -1,0 +1,10 @@
+.videoplayer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.videoplayer_media {
+  width: 640px;
+  background-color: #000;
+}

@@ -1,0 +1,13 @@
+#root {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.app {
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+}

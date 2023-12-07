@@ -1,0 +1,34 @@
+.playlist-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px;
+  border-radius: 8px;
+  overflow: hidden;
+
+  cursor: pointer;
+}
+
+.playlist-item.-active {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+.playlist-item_label {
+  flex: 1;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.playlist-item_remove {
+  width: 16px;
+  height: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+}
